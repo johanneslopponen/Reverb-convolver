@@ -4,7 +4,7 @@ import soundfile as sf
 
 # Load audio and impulse response
 audio, sr = sf.read('input.wav')
-impulse_response, ir_sr = sf.read('impulse_response.wav')
+impulse_response, ir_sr = sf.read('trapphus.wav')
 
 # Check sample rates
 if sr != ir_sr:
